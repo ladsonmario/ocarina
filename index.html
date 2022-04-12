@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Ocarina</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/template.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/normalize.css" />
+</head>
+<body class="dark">
+    <header>
+        <div class="instruction">
+            <div class="instruction-button">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>            
+        </div>        
+        <div class="mode-area">
+            Dark
+            <div class="button"><div class="button-circle"></div></div>
+            Light
+        </div>        
+    </header>
+    <div class="list">
+        <div class="menu-closer">❌</div>
+        <h2>Lista de Canções:</h2>
+        <div>
+            Zelda's Lullaby = awdawd<br/>
+            Epona Song = wadwad<br/>
+            Saria Song = sdasda<br/>
+            Song of Storms = lswlsw<br/>
+            Sun Song = dswdsw<br/>
+            Song Of Time = dlsdls<br/>
+            Minuet Of Forest = lwadad<br/>
+            Bolero Of Fire = slsldsds<br/>
+            Serenade Of Water = lsdda<br/>
+            Requiem Of Spirit = lsldsl<br/>
+            Nocturne Of Shadow = addlads<br/>
+            Prelude Of Light = wdwdaw
+        </div>
+    </div>    
+    <h1>Ocarina do Tempo</h1>
+    <div class="container">
+        <div class="ocarina">
+            <img src="./assets/images/ocarina.png" />
+            <div class="key" data-key="keyw">W</div>
+            <div class="key" data-key="keys">S</div>
+            <div class="key" data-key="keya">A</div>
+            <div class="key" data-key="keyd">D</div>
+            <div class="key" data-key="keyl">L</div>
+        </div>
+    
+        <div class="composer">
+            <input type="text" id="input" placeholder="Faça uma composição..." />
+            <button>Tocar</button>
+        </div>
+    </div>
+    
+
+    <footer>© Copyright - <a href="https://github.com/ladsonmario" target="_blank">Ladson</a></footer>
+
+    <audio id="s_keyw" src="./midia/up.wav"></audio>
+    <audio id="s_keys" src="./midia/down.wav"></audio>
+    <audio id="s_keya" src="./midia/left.wav"></audio>
+    <audio id="s_keyd" src="./midia/right.wav"></audio>
+    <audio id="s_keyl" src="./midia/a.wav"></audio>       
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
